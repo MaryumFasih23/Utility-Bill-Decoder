@@ -1,0 +1,379 @@
+{
+  "bill_id": "KESC_0008",
+  "provider": "KE",
+  "bill_month": "2026-04",
+  "sanctioned_load_kw": 3.0,
+  "consumption_history": [
+    {
+      "month": "2025-04",
+      "units": 141.0,
+      "bill_amount": null,
+      "payment_amount": null,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "usage_chart"
+      ]
+    },
+    {
+      "month": "2025-05",
+      "units": 138.0,
+      "bill_amount": null,
+      "payment_amount": null,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "usage_chart"
+      ]
+    },
+    {
+      "month": "2025-06",
+      "units": 197.0,
+      "bill_amount": null,
+      "payment_amount": null,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "usage_chart"
+      ]
+    },
+    {
+      "month": "2025-07",
+      "units": 239.0,
+      "bill_amount": null,
+      "payment_amount": null,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "usage_chart"
+      ]
+    },
+    {
+      "month": "2025-08",
+      "units": 203.0,
+      "bill_amount": null,
+      "payment_amount": null,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "usage_chart"
+      ]
+    },
+    {
+      "month": "2025-09",
+      "units": 176.0,
+      "bill_amount": null,
+      "payment_amount": null,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "usage_chart"
+      ]
+    },
+    {
+      "month": "2025-10",
+      "units": 173.0,
+      "bill_amount": null,
+      "payment_amount": null,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "usage_chart"
+      ]
+    },
+    {
+      "month": "2025-11",
+      "units": 187.0,
+      "bill_amount": null,
+      "payment_amount": null,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "usage_chart"
+      ]
+    },
+    {
+      "month": "2025-12",
+      "units": 124.0,
+      "bill_amount": null,
+      "payment_amount": null,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "usage_chart"
+      ]
+    },
+    {
+      "month": "2026-01",
+      "units": 96.0,
+      "bill_amount": 2780.55,
+      "payment_amount": 2780.0,
+      "pay_date": "15-Jan-26",
+      "status": null,
+      "sources": [
+        "billing_payment_table",
+        "usage_chart"
+      ]
+    },
+    {
+      "month": "2026-02",
+      "units": 88.0,
+      "bill_amount": 2782.51,
+      "payment_amount": 2783.0,
+      "pay_date": "19-Feb-26",
+      "status": null,
+      "sources": [
+        "billing_payment_table",
+        "usage_chart"
+      ]
+    },
+    {
+      "month": "2026-03",
+      "units": 115.0,
+      "bill_amount": 2577.31,
+      "payment_amount": 2577.0,
+      "pay_date": "16-Mar-26",
+      "status": null,
+      "sources": [
+        "billing_payment_table",
+        "usage_chart"
+      ]
+    },
+    {
+      "month": "2026-04",
+      "units": 151.0,
+      "bill_amount": null,
+      "payment_amount": null,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "usage_chart"
+      ]
+    }
+  ],
+  "history_includes_current_month": true,
+  "history_diagnostics": {
+    "history_crop_used": true,
+    "record_count": 13,
+    "records_with_units": 13,
+    "first_month": "2025-04",
+    "last_month": "2026-04",
+    "chronological": true,
+    "missing_months_in_range": [],
+    "months_after_bill_month": [],
+    "chart_bars_read": 13,
+    "history_table_rows_read": 0,
+    "billing_payment_rows_read": 3,
+    "chart_year_hint_mismatches": 0,
+    "source_conflicts": [],
+    "unresolved_labels": [],
+    "expected_months_printed": 13
+  },
+  "meter_registers": [
+    {
+      "register_name": "Energy",
+      "previous_reading": 8819.0,
+      "current_reading": 8970.0,
+      "units": 151.0,
+      "mdi_kw": null
+    }
+  ],
+  "line_item_details": [
+    {
+      "description": "Fixed Charges",
+      "amount": 900.0,
+      "units": 3.0,
+      "rate": 300.0,
+      "section": "charges"
+    },
+    {
+      "description": "Variable Upto 100 Units (Protected)",
+      "amount": 1054.0,
+      "units": 100.0,
+      "rate": 10.54,
+      "section": "charges"
+    },
+    {
+      "description": "Variable Upto 200 Units (Protected)",
+      "amount": 663.51,
+      "units": 51.0,
+      "rate": 13.01,
+      "section": "charges"
+    },
+    {
+      "description": "Uniform Quarterly Adjustment",
+      "amount": 52.91,
+      "units": 151.0,
+      "rate": 0.35,
+      "section": "charges"
+    },
+    {
+      "description": "FCA :Feb-26",
+      "amount": 125.27,
+      "units": 88.0,
+      "rate": 1.42,
+      "section": "charges"
+    },
+    {
+      "description": "Additional Surcharge (PHL)",
+      "amount": 64.93,
+      "units": 151.0,
+      "rate": 0.43,
+      "section": "charges"
+    },
+    {
+      "description": "Electricity Charges",
+      "amount": 2860.62,
+      "units": null,
+      "rate": null,
+      "section": "charges"
+    },
+    {
+      "description": "Electricity Duty",
+      "amount": 29.41,
+      "units": null,
+      "rate": null,
+      "section": "charges"
+    },
+    {
+      "description": "Sales Tax u/s 3(1)*",
+      "amount": 520.21,
+      "units": null,
+      "rate": null,
+      "section": "charges"
+    },
+    {
+      "description": "MUCT (KMC)",
+      "amount": 20.0,
+      "units": null,
+      "rate": null,
+      "section": "charges"
+    },
+    {
+      "description": "Taxes and Duties",
+      "amount": 569.62,
+      "units": null,
+      "rate": null,
+      "section": "charges"
+    },
+    {
+      "description": "Electricity Charges for current month",
+      "amount": 3430.24,
+      "units": null,
+      "rate": null,
+      "section": "charges"
+    },
+    {
+      "description": "Opening Balance",
+      "amount": 2576.47,
+      "units": null,
+      "rate": null,
+      "section": "charges"
+    },
+    {
+      "description": "Payments/Adjustment",
+      "amount": -2577.0,
+      "units": null,
+      "rate": null,
+      "section": "charges"
+    },
+    {
+      "description": "Previous Dues",
+      "amount": -0.53,
+      "units": null,
+      "rate": null,
+      "section": "charges"
+    },
+    {
+      "description": "Remaining Dues",
+      "amount": -0.53,
+      "units": null,
+      "rate": null,
+      "section": "charges"
+    },
+    {
+      "description": "Current Bill Amount",
+      "amount": 3430.24,
+      "units": null,
+      "rate": null,
+      "section": "charges"
+    },
+    {
+      "description": "Amount Payable within Due Date",
+      "amount": 3430.0,
+      "units": null,
+      "rate": null,
+      "section": "charges"
+    },
+    {
+      "description": "Late Payment Surcharge (5%)",
+      "amount": 143.03,
+      "units": null,
+      "rate": null,
+      "section": "charges"
+    },
+    {
+      "description": "Late Payment Surcharge (10%)",
+      "amount": 286.06,
+      "units": null,
+      "rate": null,
+      "section": "charges"
+    },
+    {
+      "description": "Amount Payable from 22-Apr - 24-Apr with 5% LPS",
+      "amount": 3574.0,
+      "units": null,
+      "rate": null,
+      "section": "charges"
+    },
+    {
+      "description": "Amount Payable after 24-Apr-26 with 10% LPS",
+      "amount": 3716.0,
+      "units": null,
+      "rate": null,
+      "section": "charges"
+    }
+  ],
+  "net_metering_present": false,
+  "net_metering_units_imported": null,
+  "net_metering_units_exported": null,
+  "net_metering_net_units": null,
+  "net_metering_benefit_pkr": null,
+  "outstanding_balance_pkr": -0.53,
+  "subsidies_or_relief_pkr": null,
+  "fpa_amount_pkr": 125.27,
+  "late_payment_surcharge_pkr": 286.06,
+  "payable_after_due_date_printed_text": "3,716",
+  "payable_within_due_date_printed_text": "3,430",
+  "notes": [
+    "FCA of XWDISCOs is also being charged to KE consumers as part of Uniform FCA starting from the month of Jun 25",
+    "The inclusion of consumer name and address in this bill does not constitute or imply proof of ownership / title to the property."
+  ],
+  "section_boxes": {
+    "history": [
+      430,
+      20,
+      625,
+      505
+    ],
+    "financial_summary": [
+      165,
+      20,
+      295,
+      980
+    ],
+    "charges": [
+      305,
+      515,
+      825,
+      980
+    ],
+    "meter": [
+      305,
+      20,
+      420,
+      505
+    ]
+  },
+  "source_notes": {}
+}

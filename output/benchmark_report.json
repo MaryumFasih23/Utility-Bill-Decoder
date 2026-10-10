@@ -1,0 +1,43 @@
+{
+  "client_diagnostics": {
+    "model_name": "gemini-3.1-flash-lite",
+    "requests_count": 6,
+    "cache_hits": 4,
+    "retries_count": 0,
+    "key_switches": 0,
+    "active_key_slot": "primary",
+    "last_status": "SUCCESS"
+  },
+  "benchmark_results": {
+    "KESC_0008": {
+      "accuracy_percentage": 100.0,
+      "earned_points": 25,
+      "total_points": 25,
+      "correct_scalars_count": 16,
+      "total_scalars_count": 16,
+      "correct_scalars": [
+        "provider",
+        "tariff",
+        "sanctioned_load_kw",
+        "bill_month",
+        "reading_date",
+        "issue_date",
+        "due_date",
+        "previous_reading",
+        "current_reading",
+        "units_consumed",
+        "total_charges",
+        "total_taxes",
+        "current_bill",
+        "arrears",
+        "payable_within_due_date",
+        "payable_after_due_date"
+      ],
+      "mismatches": [],
+      "charges_matched": "6/6",
+      "charges_diffs": [],
+      "taxes_matched": "3/3",
+      "taxes_diffs": []
+    }
+  }
+}

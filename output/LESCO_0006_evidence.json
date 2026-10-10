@@ -1,0 +1,257 @@
+{
+  "bill_id": "LESCO_0006",
+  "provider": "LESCO",
+  "bill_month": "2026-08",
+  "sanctioned_load_kw": 1.0,
+  "consumption_history": [
+    {
+      "month": "2025-08",
+      "units": 440.0,
+      "bill_amount": 52906.0,
+      "payment_amount": 52906.0,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "history_table"
+      ]
+    },
+    {
+      "month": "2025-09",
+      "units": 407.0,
+      "bill_amount": 23954.0,
+      "payment_amount": 25632.0,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "history_table"
+      ]
+    },
+    {
+      "month": "2025-10",
+      "units": 243.0,
+      "bill_amount": 15558.0,
+      "payment_amount": null,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "history_table"
+      ]
+    },
+    {
+      "month": "2025-11",
+      "units": 166.0,
+      "bill_amount": 27502.0,
+      "payment_amount": 27502.0,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "history_table"
+      ]
+    },
+    {
+      "month": "2025-12",
+      "units": 206.0,
+      "bill_amount": 13486.0,
+      "payment_amount": null,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "history_table"
+      ]
+    },
+    {
+      "month": "2026-01",
+      "units": 124.0,
+      "bill_amount": 23089.0,
+      "payment_amount": 23089.0,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "history_table"
+      ]
+    },
+    {
+      "month": "2026-02",
+      "units": 187.0,
+      "bill_amount": 12775.0,
+      "payment_amount": null,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "history_table"
+      ]
+    },
+    {
+      "month": "2026-03",
+      "units": 257.0,
+      "bill_amount": 31115.0,
+      "payment_amount": 31692.0,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "history_table"
+      ]
+    },
+    {
+      "month": "2026-04",
+      "units": 264.0,
+      "bill_amount": 17999.0,
+      "payment_amount": null,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "history_table"
+      ]
+    },
+    {
+      "month": "2026-05",
+      "units": 434.0,
+      "bill_amount": 47317.0,
+      "payment_amount": 48257.0,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "history_table"
+      ]
+    },
+    {
+      "month": "2026-06",
+      "units": 350.0,
+      "bill_amount": 22523.0,
+      "payment_amount": null,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "history_table"
+      ]
+    },
+    {
+      "month": "2026-07",
+      "units": 225.0,
+      "bill_amount": 38441.0,
+      "payment_amount": null,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "history_table"
+      ]
+    }
+  ],
+  "history_includes_current_month": false,
+  "history_diagnostics": {
+    "history_crop_used": true,
+    "record_count": 12,
+    "records_with_units": 12,
+    "first_month": "2025-08",
+    "last_month": "2026-07",
+    "chronological": true,
+    "missing_months_in_range": [],
+    "months_after_bill_month": [],
+    "chart_bars_read": 0,
+    "history_table_rows_read": 12,
+    "billing_payment_rows_read": 0,
+    "chart_year_hint_mismatches": 0,
+    "source_conflicts": [],
+    "unresolved_labels": [],
+    "expected_months_printed": 12
+  },
+  "meter_registers": [
+    {
+      "register_name": null,
+      "previous_reading": 22238.0,
+      "current_reading": 22303.0,
+      "units": 65.0,
+      "mdi_kw": 1.0
+    }
+  ],
+  "line_item_details": [
+    {
+      "description": "Total Electricity Charges",
+      "amount": 3777.49,
+      "units": null,
+      "rate": null,
+      "section": "charges"
+    },
+    {
+      "description": "Subsidies",
+      "amount": null,
+      "units": null,
+      "rate": null,
+      "section": "charges"
+    },
+    {
+      "description": "Net Electricity Charges",
+      "amount": 3777.49,
+      "units": null,
+      "rate": null,
+      "section": "charges"
+    },
+    {
+      "description": "Taxes",
+      "amount": 1723.51,
+      "units": null,
+      "rate": null,
+      "section": "charges"
+    },
+    {
+      "description": "Current Bill",
+      "amount": 5501.0,
+      "units": null,
+      "rate": null,
+      "section": "charges"
+    },
+    {
+      "description": "Grand Total",
+      "amount": 44912.0,
+      "units": null,
+      "rate": null,
+      "section": "charges"
+    },
+    {
+      "description": "Arrears",
+      "amount": 39411.0,
+      "units": null,
+      "rate": null,
+      "section": "charges"
+    }
+  ],
+  "net_metering_present": false,
+  "net_metering_units_imported": null,
+  "net_metering_units_exported": null,
+  "net_metering_net_units": null,
+  "net_metering_benefit_pkr": null,
+  "outstanding_balance_pkr": null,
+  "subsidies_or_relief_pkr": null,
+  "fpa_amount_pkr": null,
+  "late_payment_surcharge_pkr": 351.0,
+  "payable_after_due_date_printed_text": "45263",
+  "payable_within_due_date_printed_text": "44912",
+  "notes": [],
+  "section_boxes": {
+    "history": [
+      800,
+      25,
+      975,
+      735
+    ],
+    "financial_summary": [
+      350,
+      720,
+      500,
+      1000
+    ],
+    "charges": [
+      525,
+      50,
+      700,
+      735
+    ],
+    "meter": [
+      350,
+      50,
+      525,
+      735
+    ]
+  },
+  "source_notes": {}
+}

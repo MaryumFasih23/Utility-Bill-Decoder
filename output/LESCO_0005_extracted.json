@@ -1,0 +1,20 @@
+{
+  "provider": "LESCO",
+  "tariff": "A-1b(03)T",
+  "sanctioned_load_kw": 10,
+  "bill_month": "2026-07",
+  "reading_date": "2026-07-17",
+  "issue_date": "2026-07-20",
+  "due_date": "2026-07-30",
+  "previous_reading": null,
+  "current_reading": null,
+  "units_consumed": null,
+  "charges": [],
+  "total_charges": 17367.77,
+  "taxes": [],
+  "total_taxes": 3358.23,
+  "current_bill": 20726,
+  "arrears": -75496,
+  "payable_within_due_date": -54770,
+  "payable_after_due_date": null
+}

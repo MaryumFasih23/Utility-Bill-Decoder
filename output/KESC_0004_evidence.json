@@ -1,0 +1,372 @@
+{
+  "bill_id": "KESC_0004",
+  "provider": "KE",
+  "bill_month": "2026-06",
+  "sanctioned_load_kw": 10.0,
+  "consumption_history": [
+    {
+      "month": "2025-06",
+      "units": 943.0,
+      "bill_amount": null,
+      "payment_amount": null,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "usage_chart"
+      ]
+    },
+    {
+      "month": "2025-07",
+      "units": 637.0,
+      "bill_amount": null,
+      "payment_amount": null,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "usage_chart"
+      ]
+    },
+    {
+      "month": "2025-08",
+      "units": 665.0,
+      "bill_amount": null,
+      "payment_amount": null,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "usage_chart"
+      ]
+    },
+    {
+      "month": "2025-09",
+      "units": 555.0,
+      "bill_amount": null,
+      "payment_amount": null,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "usage_chart"
+      ]
+    },
+    {
+      "month": "2025-10",
+      "units": 522.0,
+      "bill_amount": null,
+      "payment_amount": null,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "usage_chart"
+      ]
+    },
+    {
+      "month": "2025-11",
+      "units": 143.0,
+      "bill_amount": null,
+      "payment_amount": null,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "usage_chart"
+      ]
+    },
+    {
+      "month": "2025-12",
+      "units": 121.0,
+      "bill_amount": null,
+      "payment_amount": null,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "usage_chart"
+      ]
+    },
+    {
+      "month": "2026-01",
+      "units": 114.0,
+      "bill_amount": null,
+      "payment_amount": null,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "usage_chart"
+      ]
+    },
+    {
+      "month": "2026-02",
+      "units": 131.0,
+      "bill_amount": null,
+      "payment_amount": null,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "usage_chart"
+      ]
+    },
+    {
+      "month": "2026-03",
+      "units": 187.0,
+      "bill_amount": 13564.05,
+      "payment_amount": 29351.0,
+      "pay_date": "07-Oct-25",
+      "status": null,
+      "sources": [
+        "billing_payment_table",
+        "usage_chart"
+      ]
+    },
+    {
+      "month": "2026-04",
+      "units": 298.0,
+      "bill_amount": 18957.94,
+      "payment_amount": 27914.0,
+      "pay_date": "06-Nov-25",
+      "status": null,
+      "sources": [
+        "billing_payment_table",
+        "usage_chart"
+      ]
+    },
+    {
+      "month": "2026-05",
+      "units": 599.0,
+      "bill_amount": 32842.35,
+      "payment_amount": 3531.0,
+      "pay_date": "06-Dec-25",
+      "status": null,
+      "sources": [
+        "billing_payment_table",
+        "usage_chart"
+      ]
+    },
+    {
+      "month": "2026-06",
+      "units": 901.0,
+      "bill_amount": null,
+      "payment_amount": null,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "usage_chart"
+      ]
+    }
+  ],
+  "history_includes_current_month": true,
+  "history_diagnostics": {
+    "history_crop_used": true,
+    "record_count": 13,
+    "records_with_units": 13,
+    "first_month": "2025-06",
+    "last_month": "2026-06",
+    "chronological": true,
+    "missing_months_in_range": [],
+    "months_after_bill_month": [],
+    "chart_bars_read": 13,
+    "history_table_rows_read": 0,
+    "billing_payment_rows_read": 3,
+    "chart_year_hint_mismatches": 0,
+    "source_conflicts": [],
+    "unresolved_labels": [],
+    "expected_months_printed": 13
+  },
+  "meter_registers": [
+    {
+      "register_name": "Energy - Off Peak",
+      "previous_reading": 1163.29,
+      "current_reading": 1923.73,
+      "units": 760.44,
+      "mdi_kw": 4.69
+    },
+    {
+      "register_name": "Energy - Peak",
+      "previous_reading": 402.35,
+      "current_reading": 542.85,
+      "units": 140.5,
+      "mdi_kw": 3.35
+    },
+    {
+      "register_name": "Import Energy Off Peak",
+      "previous_reading": 10865.55,
+      "current_reading": 12238.4,
+      "units": 1372.85,
+      "mdi_kw": 9.4
+    },
+    {
+      "register_name": "Import Energy Peak",
+      "previous_reading": 4.97,
+      "current_reading": 6.53,
+      "units": 1.56,
+      "mdi_kw": 0.79
+    }
+  ],
+  "line_item_details": [
+    {
+      "description": "Fixed Charges",
+      "amount": 3375.0,
+      "units": 5.0,
+      "rate": 675.0,
+      "section": "bill_calculation"
+    },
+    {
+      "description": "Variable Off Peak",
+      "amount": 26257.99,
+      "units": 760.44,
+      "rate": 34.53,
+      "section": "bill_calculation"
+    },
+    {
+      "description": "Variable Peak",
+      "amount": 6582.43,
+      "units": 140.5,
+      "rate": 46.85,
+      "section": "bill_calculation"
+    },
+    {
+      "description": "Uniform Quarterly Adjustment",
+      "amount": -1442.74,
+      "units": 726.57,
+      "rate": -1.99,
+      "section": "bill_calculation"
+    },
+    {
+      "description": "Uniform Quarterly Adjustment",
+      "amount": 61.1,
+      "units": 174.37,
+      "rate": 0.35,
+      "section": "bill_calculation"
+    },
+    {
+      "description": "FCA :Apr-26",
+      "amount": 354.19,
+      "units": 297.46,
+      "rate": 1.19,
+      "section": "bill_calculation"
+    },
+    {
+      "description": "Additional Surcharge (PHL)",
+      "amount": 2910.04,
+      "units": 900.94,
+      "rate": 3.23,
+      "section": "bill_calculation"
+    },
+    {
+      "description": "Electricity Charges",
+      "amount": 38098.01,
+      "units": null,
+      "rate": null,
+      "section": "bill_calculation"
+    },
+    {
+      "description": "Electricity Duty",
+      "amount": 520.85,
+      "units": null,
+      "rate": null,
+      "section": "bill_calculation"
+    },
+    {
+      "description": "Sales Tax u/s 3(1)*",
+      "amount": 6951.39,
+      "units": null,
+      "rate": null,
+      "section": "bill_calculation"
+    },
+    {
+      "description": "Taxes and Duties",
+      "amount": 7472.24,
+      "units": null,
+      "rate": null,
+      "section": "bill_calculation"
+    },
+    {
+      "description": "Electricity Charges for current month",
+      "amount": 45570.25,
+      "units": null,
+      "rate": null,
+      "section": "bill_calculation"
+    },
+    {
+      "description": "Opening Balance",
+      "amount": -91877.02,
+      "units": null,
+      "rate": null,
+      "section": "bill_calculation"
+    },
+    {
+      "description": "Previous Dues",
+      "amount": -91877.02,
+      "units": null,
+      "rate": null,
+      "section": "bill_calculation"
+    },
+    {
+      "description": "Remaining Dues",
+      "amount": -91877.02,
+      "units": null,
+      "rate": null,
+      "section": "bill_calculation"
+    },
+    {
+      "description": "Current Bill Amount",
+      "amount": 45570.25,
+      "units": null,
+      "rate": null,
+      "section": "bill_calculation"
+    },
+    {
+      "description": "Net Metering Benefit",
+      "amount": -114640.13,
+      "units": null,
+      "rate": null,
+      "section": "bill_calculation"
+    },
+    {
+      "description": "Outstanding Balance",
+      "amount": -160946.9,
+      "units": null,
+      "rate": null,
+      "section": "bill_calculation"
+    }
+  ],
+  "net_metering_present": true,
+  "net_metering_units_imported": null,
+  "net_metering_units_exported": null,
+  "net_metering_net_units": null,
+  "net_metering_benefit_pkr": -114640.13,
+  "outstanding_balance_pkr": -160946.9,
+  "subsidies_or_relief_pkr": null,
+  "fpa_amount_pkr": 354.19,
+  "late_payment_surcharge_pkr": null,
+  "payable_after_due_date_printed_text": null,
+  "payable_within_due_date_printed_text": "Rs. 0",
+  "notes": [
+    "FCA of XWDISCOs is also being charged to KE consumers as part of Uniform FCA starting from the month of Jun 25",
+    "As per SRO 547/2026 read with SRO 251/2026, prosumers registered under the Prosumer Regulations 2026 (PR) are billed according to the rate and mechanism defined in PR. Net metering consumers with existing valid agreements continue to be billed under the repealed 2015 regulations until the expiry of their agreements."
+  ],
+  "section_boxes": {
+    "history": [
+      425,
+      20,
+      625,
+      500
+    ],
+    "financial_summary": [
+      165,
+      20,
+      290,
+      980
+    ],
+    "charges": [
+      305,
+      515,
+      575,
+      980
+    ],
+    "meter": [
+      305,
+      20,
+      420,
+      500
+    ]
+  },
+  "source_notes": {}
+}

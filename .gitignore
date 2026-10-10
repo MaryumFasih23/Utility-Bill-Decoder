@@ -1,0 +1,24 @@
+# Environment and secrets
+.env
+*.env
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Caching
+.cache/
+cache/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

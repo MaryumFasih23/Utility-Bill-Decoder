@@ -1,0 +1,288 @@
+{
+  "bill_id": "IESCO_0004",
+  "provider": "IESCO",
+  "bill_month": "2026-09",
+  "sanctioned_load_kw": 3.0,
+  "consumption_history": [
+    {
+      "month": "2025-09",
+      "units": 20.0,
+      "bill_amount": 215.0,
+      "payment_amount": 215.0,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "history_table"
+      ]
+    },
+    {
+      "month": "2025-10",
+      "units": 163.0,
+      "bill_amount": 1930.0,
+      "payment_amount": 1930.0,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "history_table"
+      ]
+    },
+    {
+      "month": "2025-11",
+      "units": 148.0,
+      "bill_amount": 1971.0,
+      "payment_amount": 1971.0,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "history_table"
+      ]
+    },
+    {
+      "month": "2025-12",
+      "units": 102.0,
+      "bill_amount": 1357.0,
+      "payment_amount": 1357.0,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "history_table"
+      ]
+    },
+    {
+      "month": "2026-01",
+      "units": 105.0,
+      "bill_amount": 1415.0,
+      "payment_amount": 1415.0,
+      "pay_date": null,
+      "status": "EX",
+      "sources": [
+        "history_table"
+      ]
+    },
+    {
+      "month": "2026-02",
+      "units": 116.0,
+      "bill_amount": 2016.0,
+      "payment_amount": 2016.0,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "history_table"
+      ]
+    },
+    {
+      "month": "2026-03",
+      "units": 104.0,
+      "bill_amount": 2665.0,
+      "payment_amount": 2665.0,
+      "pay_date": null,
+      "status": "EX",
+      "sources": [
+        "history_table"
+      ]
+    },
+    {
+      "month": "2026-04",
+      "units": 133.0,
+      "bill_amount": 3130.0,
+      "payment_amount": 3130.0,
+      "pay_date": null,
+      "status": "EX",
+      "sources": [
+        "history_table"
+      ]
+    },
+    {
+      "month": "2026-05",
+      "units": 176.0,
+      "bill_amount": 3634.0,
+      "payment_amount": 3634.0,
+      "pay_date": null,
+      "status": "EX",
+      "sources": [
+        "history_table"
+      ]
+    },
+    {
+      "month": "2026-06",
+      "units": 197.0,
+      "bill_amount": 894.0,
+      "payment_amount": 3600.0,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "history_table"
+      ]
+    },
+    {
+      "month": "2026-07",
+      "units": 110.0,
+      "bill_amount": 566.0,
+      "payment_amount": 0.0,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "history_table"
+      ]
+    },
+    {
+      "month": "2026-08",
+      "units": 47.0,
+      "bill_amount": 3198.0,
+      "payment_amount": 3198.0,
+      "pay_date": null,
+      "status": null,
+      "sources": [
+        "history_table"
+      ]
+    }
+  ],
+  "history_includes_current_month": false,
+  "history_diagnostics": {
+    "history_crop_used": true,
+    "record_count": 12,
+    "records_with_units": 12,
+    "first_month": "2025-09",
+    "last_month": "2026-08",
+    "chronological": true,
+    "missing_months_in_range": [],
+    "months_after_bill_month": [],
+    "chart_bars_read": 0,
+    "history_table_rows_read": 12,
+    "billing_payment_rows_read": 0,
+    "chart_year_hint_mismatches": 0,
+    "source_conflicts": [],
+    "unresolved_labels": [],
+    "expected_months_printed": 12
+  },
+  "meter_registers": [
+    {
+      "register_name": "Main",
+      "previous_reading": 9301.0,
+      "current_reading": 9459.0,
+      "units": 158.0,
+      "mdi_kw": null
+    }
+  ],
+  "line_item_details": [
+    {
+      "description": "Total Electricity Charges",
+      "amount": 6102.0,
+      "units": null,
+      "rate": null,
+      "section": null
+    },
+    {
+      "description": "Subsidies",
+      "amount": -3332.0,
+      "units": null,
+      "rate": null,
+      "section": null
+    },
+    {
+      "description": "Net Electricity Charges 84.76 %",
+      "amount": 2770.0,
+      "units": null,
+      "rate": null,
+      "section": null
+    },
+    {
+      "description": "Taxes 15.24 %",
+      "amount": 498.0,
+      "units": null,
+      "rate": null,
+      "section": null
+    },
+    {
+      "description": "Current Bill",
+      "amount": 3267.0,
+      "units": null,
+      "rate": null,
+      "section": null
+    },
+    {
+      "description": "Arrears",
+      "amount": 0.0,
+      "units": null,
+      "rate": null,
+      "section": null
+    },
+    {
+      "description": "Installment",
+      "amount": 0.0,
+      "units": null,
+      "rate": null,
+      "section": null
+    },
+    {
+      "description": "Adjustments",
+      "amount": 0.0,
+      "units": null,
+      "rate": null,
+      "section": null
+    },
+    {
+      "description": "W.E Credit",
+      "amount": 0.0,
+      "units": null,
+      "rate": null,
+      "section": null
+    },
+    {
+      "description": "Lock Open Credit",
+      "amount": 0.0,
+      "units": null,
+      "rate": null,
+      "section": null
+    },
+    {
+      "description": "Total FPA",
+      "amount": 267.0,
+      "units": null,
+      "rate": null,
+      "section": null
+    }
+  ],
+  "net_metering_present": false,
+  "net_metering_units_imported": null,
+  "net_metering_units_exported": null,
+  "net_metering_net_units": null,
+  "net_metering_benefit_pkr": null,
+  "outstanding_balance_pkr": null,
+  "subsidies_or_relief_pkr": -3332.0,
+  "fpa_amount_pkr": 267.0,
+  "late_payment_surcharge_pkr": 277.0,
+  "payable_after_due_date_printed_text": "3812",
+  "payable_within_due_date_printed_text": "3535",
+  "notes": [
+    "\u0622\u067e \u06a9\u06d2 \u0627\u0633 \u0628\u0644 \u0645\u06cc\u06ba \u062c\u0648 \u0622\u0626\u06cc 26 \u06a9\u06d2 \u0635\u0631\u0641 110 \u06a9\u06d2 \u0628\u0639\u062f \u062c\u0646 \u06a9\u06cc \u0642\u06cc\u0645\u062a (FPA) \u06a9\u06d2 267 \u0631\u0648\u067e\u06d2 \u0628\u06be\u06cc \u0634\u0627\u0645\u0644 \u06c1\u06cc\u06ba",
+    "\u0622\u067e \u06a9\u06d2 \u0645\u0648\u062c\u0648\u062f\u06c1 \u0628\u062c\u0644\u06cc \u06a9\u06d2 \u0628\u0644 6,599 \u0631\u0648\u067e\u06d2 \u0645\u06cc\u06ba \u062d\u06a9\u0648\u0645\u062a \u067e\u0627\u06a9\u0633\u062a\u0627\u0646 \u06a9\u06cc \u062c\u0627\u0646\u0628 \u0633\u06d2 3,332 \u0631\u0648\u067e\u06d2 \u06a9\u06cc \u0633\u0628\u0633\u0688\u06cc \u0634\u0627\u0645\u0644 \u06c1\u06d2\u06d4"
+  ],
+  "section_boxes": {
+    "history": [
+      598,
+      33,
+      755,
+      675
+    ],
+    "financial_summary": [
+      85,
+      683,
+      295,
+      967
+    ],
+    "charges": [
+      338,
+      33,
+      500,
+      675
+    ],
+    "meter": [
+      218,
+      33,
+      275,
+      675
+    ]
+  },
+  "source_notes": {}
+}
